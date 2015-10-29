@@ -11,16 +11,7 @@
     <name>Exercícios Construção de Software</name>
 
     <modules>
-		<module>Primo</module>
-		<module>Propriedade153</module>
-		<module>Fatorial</module>
-		<module>Pi</module>
-		<module>FatorialSoma</module>
-		<module>Log</module>
-		<module>ModSimples</module>
-		<module>DivideSubtracoes</module>
-		<module>RazaoAurea</module>
-		<module>SomaNaturais</module>
+		<module>algoritmo1</module>
    </modules>
 
     <build>
