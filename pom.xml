@@ -11,7 +11,7 @@
     <name>Avaliação de Construção de Software</name>
 
     <modules>
-		<module>algoritmo1</module>
+		<module>Algoritmo1</module>
    </modules>
 
     <build>
