@@ -1,7 +1,7 @@
 package br.ufg.inf.es.construcao.semana;
 
 /**
- * Manipulação de informações de calendário.
+ * Implementação do algoritmo que obtem o dia da semana de uma dada data.
  */
 public class DiaSemana {
 
