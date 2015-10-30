@@ -3,7 +3,6 @@ package br.ufg.inf.es.construcao.semana;
 /**
  * Manipulação de informações de calendário.
  */
-
 public class DiaSemana {
 
     /**
@@ -21,7 +20,6 @@ public class DiaSemana {
      * O mês deve ser um valor entre 1 e 12, inclusive.
      * O ano deve ser um valor maior que 1752.
      */
-
     public static int diaDaSemana(int d, int m, int a) {
         if (d < 1 || d > 31) {
             throw new IllegalArgumentException("Dia inválido");
