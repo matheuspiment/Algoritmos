@@ -14,13 +14,13 @@ public class Produto {
      * @throws IllegalArgumentException Caso a ou b seja inválido.
      */
     public static int produto(int a, int b) {
-        if (a < 0 || b < 0) {
-            if (a < 0) {
-                throw new IllegalArgumentException("a inválido");
-            } else {
-                throw new IllegalArgumentException("b inválido");
-            }
-        } 
+        if (a < 0) {
+            throw new IllegalArgumentException("a inválido");
+        }
+
+        if (b < 0) {
+            throw new IllegalArgumentException("b inválido");
+        }
         
         int i = 1;
         int s = 0;

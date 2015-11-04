@@ -14,12 +14,12 @@ public class Potencia {
      * @throws IllegalArgumentException Caso x ou y seja inválido.
      */
     public static int potencia(int x, int y) {
-        if (x <= 0 || y < 0) {
-            if (x <= 0) {
-                throw new IllegalArgumentException("x inválido");
-            } else {
-                throw new IllegalArgumentException("y inválido");
-            }
+        if (x <= 0) {
+            throw new IllegalArgumentException("x inválido");
+        }
+
+        if (y < 0) {
+            throw new IllegalArgumentException("y inválido");
         }
         
         int i = 1;
