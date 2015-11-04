@@ -12,6 +12,8 @@ public class Potencia {
      * @param y O expoente.
      * @return A potência.
      * @throws IllegalArgumentException Caso x ou y seja inválido.
+     * O x deve ser um valor maior que 0.
+     * O y deve ser um valor maior ou igual à 0.
      */
     public static int potencia(int x, int y) {
         if (x <= 0 || y < 0) {
