@@ -1,27 +1,27 @@
 package br.ufg.inf.es.construcao.propriedade3025;
 
 /**
- * Implementação do algoritmo que verifica a existência da propriedade 3025
- * em um dado número.
+ * ImplementaÃ§Ã£o do algoritmo que verifica a existÃªncia da propriedade 3025
+ * em um dado nÃºmero.
  */
 public class Propriedade3025 {
 
     /**
-     * Verifica a existência da propriedade 3025 em um dado número.
+     * Verifica a existÃªncia da propriedade 3025 em um dado nÃºmero.
      *
-     * @param n Número à ser verificado.
-     * @return Retorna true para a existência da propriedade no número e false,
-     * caso contrário.
+     * @param n NÃºmero Ã  ser verificado.
+     * @return Retorna true para a existÃªncia da propriedade no nÃºmero e false,
+     * caso contrÃ¡rio.
      * @throws IllegalArgumentException Caso n esteja fora do intervalo estabelecido.
-     * O n deve ser maior que 0, inclusive, e menor que 9999, inclisive.
+     * O n deve ser maior que -1 e menor que 10000.
      */
     public static boolean propriedade3025(int n) {
         if (n < 0 || n > 9999) {
-            throw new IllegalArgumentException("n inválido");
+            throw new IllegalArgumentException("n invÃ¡lido");
         }
 
-        int i = n / 100; // Dois dígitos mais significativos.
-        int j = n % 100; // Dois dígitos menos significativos.
+        int i = n / 100; // Dois dÃ­gitos mais significativos.
+        int j = n % 100; // Dois dÃ­gitos menos significativos.
 
         if ((i + j) * (i + j) == n) {
             return true;
