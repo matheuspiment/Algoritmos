@@ -11,7 +11,7 @@ public class Produto {
      * @param a O multiplicador.
      * @param b O multiplicando.
      * @return O produto da multiplpicação.
-     * @throws IllegalArgumentException Caso a ou b seja inválido.
+     * @throws IllegalArgumentException Caso a ou b seja inválido, menor que 0.
      */
     public static int produto(int a, int b) {
         if (a < 0) {
