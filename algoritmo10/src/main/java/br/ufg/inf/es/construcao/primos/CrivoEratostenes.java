@@ -11,6 +11,7 @@ public class CrivoEratostenes {
      *
      * @param a Valores de entrada do vetor.
      * @param n Número cuja primaridade será verificada.
+     * 
      * @throws IllegalArgumentException Caso o n, o tamanho do vetor ou os
      * valores posteriores a segunda posição do vetor fornecidos não atendem ao
      * valor de "partida" estabelecido.

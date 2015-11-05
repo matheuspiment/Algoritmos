@@ -1,20 +1,22 @@
 package br.ufg.inf.es.construcao.funcao;
 
 /**
- * Implementação do algoritmo que realiza a soma dos n primeiros naturais.
+ * ImplementaÃ§Ã£o do algoritmo que realiza a soma dos n primeiros naturais.
  */
 public class SomaNaturais {
 
     /**
-     * Soma os n primeiros naturais, de 1 até n.
+     * Soma os n primeiros naturais, de 1 atÃ© n.
      *
-     * @param n O número de termos a serem somados.
+     * @param n O nÃºmero de termos a serem somados.
+     * 
      * @return Retorna a soma dos n naturais.
+     * 
      * @throws IllegalArgumentException Se n for menor que 1.
      */
     public static int somaNaturais(int n) {
         if (n < 1) {
-            throw new IllegalArgumentException("n inválido");
+            throw new IllegalArgumentException("n invÃ¡lido");
         }
 
         int i = 2;
