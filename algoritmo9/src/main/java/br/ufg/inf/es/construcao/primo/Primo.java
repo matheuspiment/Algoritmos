@@ -1,20 +1,22 @@
 package br.ufg.inf.es.construcao.primo;
 
 /**
- * Implementação do algoritmo que identifica a primaridade de um dado número.
+ * ImplementaÃ§Ã£o do algoritmo que identifica a primaridade de um dado nÃºmero.
  */
 public class Primo {
 
     /**
-     * Verifica se um dado número é ou não primo.
+     * Verifica se um dado nÃºmero Ã© ou nÃ£o primo.
      *
-     * @param n Número à ser verificado.
-     * @return Retorna true caso o número seja primo ou false, caso contrário.
+     * @param n NÃºmero Ã  ser verificado.
+     * 
+     * @return Retorna true caso o nÃºmero seja primo ou false, caso contrÃ¡rio.
+     * 
      * @throws IllegalArgumentException Caso n seja menor que 2.
      */
     public static boolean primo(int n) {
         if (n <= 1) {
-            throw new IllegalArgumentException("n inválido");
+            throw new IllegalArgumentException("n invÃ¡lido");
         }
 
         int i = 2;
