@@ -1,28 +1,30 @@
 package br.ufg.ing.es.construcao.potencia;
 
 /**
- * Implementação do algoritmo que realiza a potenciação utilizando a classe
- * Produto já implementada.
+ * Implementaï¿½ï¿½o do algoritmo que realiza a potenciaï¿½ï¿½o utilizando a classe
+ * Produto jï¿½ implementada.
  */
 public class PotenciaSoma {
 
     /**
-     * Realiza a potenciação por meio da "soma" das multiplicações.
+     * Realiza a potenciaï¿½ï¿½o por meio da "soma" das multiplicaï¿½ï¿½es.
      *
      * @param x A base.
      * @param y O expoente.
-     * @return A potência.
-     * @throws IllegalArgumentException Caso x ou y seja inválido.
+     *
+     * @return A potï¿½ncia.
+     *
+     * @throws IllegalArgumentException Caso x ou y seja invï¿½lido.
      * O x deve ser maior que 0.
-     * O y deve ser maior ou igual à 1.
+     * O y deve ser maior ou igual ï¿½ 1.
      */
     public static int potenciaSoma(int x, int y) {
         if (x <= 0) {
-            throw new IllegalArgumentException("x inválido");
+            throw new IllegalArgumentException("x invï¿½lido");
         }
 
         if (y < 1) {
-            throw new IllegalArgumentException("y inválido");
+            throw new IllegalArgumentException("y invï¿½lido");
         }
 
         int i = 1;

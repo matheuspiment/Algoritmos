@@ -10,7 +10,9 @@ public class Potencia {
      * 
      * @param x A base. 
      * @param y O expoente.
+     *
      * @return A potência.
+     *
      * @throws IllegalArgumentException Caso x ou y seja inválido.
      * O x deve ser um valor maior que 0.
      * O y deve ser um valor maior ou igual à 0.

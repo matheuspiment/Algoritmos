@@ -1,24 +1,26 @@
 package br.ufg.inf.es.construcao.propriedade153;
 
 /**
- * Implementação do algoritmo que verifica a existência de propriedade 153
- * em um dado número.
+ * Implementaï¿½ï¿½o do algoritmo que verifica a existï¿½ncia de propriedade 153
+ * em um dado nï¿½mero.
  */
 public class Propriedade153 {
 
     /**
-     * Verifica a existência da propriedade 153 em um dado número.
+     * Verifica a existï¿½ncia da propriedade 153 em um dado nï¿½mero.
      *
-     * @param n Número à ser verificado.
-     * @return Retorna true para a existência da propriedade no número ou false,
-     * caso contrário.
+     * @param n Nï¿½mero ï¿½ ser verificado.
+     *
+     * @return Retorna true para a existï¿½ncia da propriedade no nï¿½mero ou false,
+     * caso contrï¿½rio.
+     *
      * @throws IllegalArgumentException Caso n esteja fora do intervalo
      * estabelecido.
      * O n deve ser maior que -1 e menor que 1000.
      */
     public static boolean propriedade153(int n) {
         if (n < 0 || n > 999) {
-            throw new IllegalArgumentException("n inválido");
+            throw new IllegalArgumentException("n invï¿½lido");
         }
 
         int i = n / 100;

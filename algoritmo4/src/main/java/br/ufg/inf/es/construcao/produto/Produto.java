@@ -10,7 +10,9 @@ public class Produto {
      * 
      * @param a O multiplicador.
      * @param b O multiplicando.
+     *
      * @return O produto da multiplpicação.
+     *
      * @throws IllegalArgumentException Caso a ou b seja inválido.
      * Os parâmetros a e b devem ser maiores que 0. 
      */

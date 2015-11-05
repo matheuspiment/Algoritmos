@@ -10,8 +10,10 @@ public class Propriedade3025 {
      * Verifica a existência da propriedade 3025 em um dado número.
      *
      * @param n Número à ser verificado.
+     *
      * @return Retorna true para a existência da propriedade no número ou false,
      * caso contrário.
+     *
      * @throws IllegalArgumentException Caso n esteja fora do intervalo
      * estabelecido.
      * O n deve ser maior que -1 e menor que 10000.
