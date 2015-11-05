@@ -15,7 +15,7 @@ public class Mdc {
      *
      * @throws IllegalArgumentException Caso os valores a ou b estejam abaixo
      * do limite de entrada estabelecido.
-     * O parâmetro a deve ser maior que b.
+     * O parâmetro a deve ser igual ou maior que b.
      * O parâmetro b deve ser maior que 0.
      */
     public static int mdc(int a, int b) {
