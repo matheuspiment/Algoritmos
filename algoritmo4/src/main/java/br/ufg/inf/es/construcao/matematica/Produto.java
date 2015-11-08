@@ -1,4 +1,4 @@
-package br.ufg.inf.es.construcao.produto;
+package br.ufg.inf.es.construcao.matematica;
 
 /**
  * Implementação do algoritmo que realiza a multiplicação de dois números.

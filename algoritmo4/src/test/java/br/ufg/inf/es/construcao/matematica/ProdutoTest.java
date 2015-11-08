@@ -1,4 +1,4 @@
-package br.ufg.inf.es.construcao.produto;
+package br.ufg.inf.es.construcao.matematica;
 
 import org.junit.Test;
 import org.junit.Assert;
