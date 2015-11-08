@@ -1,24 +1,26 @@
 package br.ufg.inf.es.construcao.matematica;
 
+import br.ufg.inf.es.construcao.matematica.Mod;
+
 /**
- * Implementação do algoritmo que soma todos os divisores de um dado número.
+ * Implementaï¿½ï¿½o do algoritmo que soma todos os divisores de um dado nï¿½mero.
  */
 public class SomaDivisores {
 
     /**
      * Soma todos os divisores de um dado inteiro n.
      *
-     * @param n Número ao qual se quer obter a soma de seus divisores.
+     * @param n Nï¿½mero ao qual se quer obter a soma de seus divisores.
      *
-     * @return A soma dos divisores do dado número.
+     * @return A soma dos divisores do dado nï¿½mero.
      *
      * @throws IllegalArgumentException Caso n seja menor que o valor de
      * entrada estabelecido.
-     * O parâmetro n deve ser maior que 0.
+     * O parï¿½metro n deve ser maior que 0.
      */
     public static int somaDivisores(int n) {
         if (n <= 0) {
-            throw new IllegalArgumentException("n inválido");
+            throw new IllegalArgumentException("n invï¿½lido");
         }
 
         int d = 2;

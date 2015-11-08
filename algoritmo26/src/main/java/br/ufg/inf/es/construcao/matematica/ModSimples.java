@@ -1,30 +1,32 @@
 package br.ufg.inf.es.construcao.matematica;
 
+import br.ufg.inf.es.construcao.matematica.DivideSubtracoes;
+
 /**
- * Impementação do algoritmo que obtem o resto de uma divisão.
+ * Impementaï¿½ï¿½o do algoritmo que obtem o resto de uma divisï¿½o.
  */
 public class ModSimples {
 
     /**
-     * Obtem o resto da divisão inteira de dois dados nímeros.
+     * Obtem o resto da divisï¿½o inteira de dois dados nï¿½meros.
      *
      * @param x Dividendo.
      * @param y Divisor.
      *
-     * @return O resto da divisão.
+     * @return O resto da divisï¿½o.
      *
      * @throws IllegalArgumentException Caso x ou y sejam menores que
      * o valor estabelecido.
-     * O parâmetro x deve ser maior que 0.
-     * O parâmetro y deve ser maior que 0.
+     * O parï¿½metro x deve ser maior que 0.
+     * O parï¿½metro y deve ser maior que 0.
      */
     public static int modSimples(int x, int y) {
         if (x <= 0) {
-            throw new IllegalArgumentException("x inválido");
+            throw new IllegalArgumentException("x invï¿½lido");
         }
 
         if (y <= 0) {
-            throw new IllegalArgumentException("y inválido");
+            throw new IllegalArgumentException("y invï¿½lido");
         }
 
         int d = DivideSubtracoes.divideSubtracoes(x, y);

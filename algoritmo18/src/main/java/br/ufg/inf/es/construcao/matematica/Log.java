@@ -1,5 +1,8 @@
 package br.ufg.inf.es.construcao.matematica;
 
+import br.ufg.inf.es.construcao.matematica.Potencia;
+import br.ufg.inf.es.construcao.matematica.Fatorial;
+
 /**
  * Implementação do algoritmo que calcula o log natural com base na soma
  * dos termos 1 + n + (n ^ 2) / 2! + ... + (n ^ (k - 1) / (k - 1)!) +

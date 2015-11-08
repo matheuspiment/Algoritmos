@@ -1,5 +1,9 @@
 package br.ufg.inf.es.construcao.matematica;
 
+import br.ufg.inf.es.construcao.matematica.DivideSomas;
+import br.ufg.inf.es.construcao.matematica.Mod;
+import br.ufg.inf.es.construcao.matematica.Produto;
+
 /**
  *
  */
@@ -14,16 +18,16 @@ public class Divide {
      *
      * @throws IllegalArgumentException Caso os valores de a ou b sejam menores
      * que os valores de entrada estabelecidos.
-     * O parâmetro a deve ser maior que 0.
-     * O parâmetro b deve ser maior que 0.
+     * O parï¿½metro a deve ser maior que 0.
+     * O parï¿½metro b deve ser maior que 0.
      */
     public static void divide(int a, int b, int k) {
         if (a <= 0) {
-            throw new IllegalArgumentException("a inválido");
+            throw new IllegalArgumentException("a invï¿½lido");
         }
 
         if (b <= 0) {
-            throw new IllegalArgumentException("b inválido");
+            throw new IllegalArgumentException("b invï¿½lido");
         }
 
         int d = DivideSomas.divideSomas(a, b);
