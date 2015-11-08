@@ -31,4 +31,3 @@ public class FatorialSoma {
         return f;
     }
 }
-
