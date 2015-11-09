@@ -13,8 +13,10 @@ public class SomaArray {
      *
      * @return A soma dos elementos n primeiros elementosdos array.
      *
-     * @throws IllegalArgumentException Caso o parâmetro de entrada seja inválido.
+     * @throws IllegalArgumentException Caso os parâmetros de entrada
+     * sejam inválidos.
      * O parâmetro n deve ser maior que -1.
+     * O tamanho do vetor deve ser maior que n.
      */
     public static int somaArray(int[] A, int n) {
         if (n < 0) {
