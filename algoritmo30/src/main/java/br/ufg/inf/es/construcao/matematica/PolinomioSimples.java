@@ -31,7 +31,7 @@ public class PolinomioSimples {
             throw new IllegalArgumentException("tamanho do vetor");
         }
 
-        if (a[g] == 0){
+        if (a[g] == 0) {
             throw new IllegalArgumentException("vetor inválido");
         }
 
