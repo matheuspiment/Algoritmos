@@ -20,10 +20,10 @@ public class AtendeSomaFatDigitos {
      *
      * @throws IllegalArgumentException Caso n não atenda a exigência de
      * entrada estabelecida.
-     * O parâmetro n deve ser maior que 0 e menor que 1000.
+     * O parâmetro n deve ser maior que -1 e menor que 1000.
      */
     public static boolean verifica(int n) {
-        if (n <= 0 || n >= 1000) {
+        if (n < 0 || n >= 1000) {
             throw new IllegalArgumentException("n inválido");
         }
 

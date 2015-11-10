@@ -1,24 +1,28 @@
 package br.ufg.inf.es.construcao.matematica;
 
 /**
- * Implementação do algoritmo que calcula o fatorial de um dado número.
+ * Implementaï¿½ï¿½o do algoritmo que calcula o fatorial de um dado nï¿½mero.
  */
 public class Fatorial {
 
     /**
-     * Calcula o fatorial de um dado número.
+     * Calcula o fatorial de um dado nï¿½mero.
      *
-     * @param n Número ao qual se quer obter o fatorial.
+     * @param n Nï¿½mero ao qual se quer obter o fatorial.
      *
-     * @return O fatorial do número dado.
+     * @return O fatorial do nï¿½mero dado.
      *
      * @throws IllegalArgumentException Caso n esteja abaixo
      * do limite de entrada estabelecido.
-     * O parâmetro n deve ser maior que 0.
+     * O parï¿½metro n deve ser maior que 0.
      */
     public static int fatorial(int n) {
-        if (n < 1) {
-            throw new IllegalArgumentException("n inválido");
+        if (n < 0) {
+            throw new IllegalArgumentException("n invï¿½lido");
+        }
+
+        if (n == 0) {
+            return 1;
         }
 
         int i = 2;

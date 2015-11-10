@@ -7,7 +7,7 @@ public class AtendeSomaFatDigitosTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testParametroInvalido() throws Exception{
-        AtendeSomaFatDigitos.verifica(0);
+        AtendeSomaFatDigitos.verifica(-1);
         AtendeSomaFatDigitos.verifica(1000);
     }
 
