@@ -30,7 +30,8 @@ public class AtendeSomaFatDigitos {
         int a = n / 100;
         int b = (n - 100 * a) / 10;
         int c = n % 10;
-        int s = Fatorial.fatorial(a) + Fatorial.fatorial(b) + Fatorial.fatorial(c);
+        int s = Fatorial.fatorial(a) + Fatorial.fatorial(b) +
+                Fatorial.fatorial(c);
 
         if (s == n) {
             return true;
