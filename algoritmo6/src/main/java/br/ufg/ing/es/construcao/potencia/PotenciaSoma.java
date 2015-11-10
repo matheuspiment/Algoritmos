@@ -1,5 +1,7 @@
 package br.ufg.ing.es.construcao.potencia;
 
+import br.ufg.inf.es.construcao.matematica.Produto;
+
 /**
  * Implementa��o do algoritmo que realiza a potencia��o utilizando a classe
  * Produto j� implementada.
