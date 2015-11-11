@@ -1,30 +1,30 @@
 package br.ufg.inf.es.construcao.matematica;
 
 /**
- * Implementação do algoritmo que obtem o resto de uma divisão.
+ * Implementaï¿½ï¿½o do algoritmo que obtem o resto de uma divisï¿½o.
  */
 public class Mod {
 
     /**
-     * Obtem o resto da divisão de dois dados números.
+     * Obtem o resto da divisï¿½o de dois dados nï¿½meros.
      *
      * @param x Dividendo.
      * @param y Divisor.
      *
-     * @return O resto da divisão.
+     * @return O resto da divisï¿½o.
      *
      * @throws IllegalArgumentException Caso os valores de x ou y sejam menores
      * que os valores de entrada estabelecidos.
-     * O parâmetro x deve ser maior que 0.
-     * O parâmetro y deve ser maior que -1.
+     * O parï¿½metro x deve ser maior que -1.
+     * O parï¿½metro y deve ser maior que 0.
      */
     public static int mod(int x, int y) {
-        if (x <= 0) {
-            throw new IllegalArgumentException("x inválido");
+        if (x < 0) {
+            throw new IllegalArgumentException("x invï¿½lido");
         }
 
-        if (y < 0) {
-            throw new IllegalArgumentException("y inválido");
+        if (y <= 0) {
+            throw new IllegalArgumentException("y invï¿½lido");
         }
 
         int s = x;
