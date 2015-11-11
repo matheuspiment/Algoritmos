@@ -16,7 +16,7 @@ public class SomaArray {
      * @throws IllegalArgumentException Caso os parâmetros de entrada
      * sejam inválidos.
      * O parâmetro n deve ser maior que -1.
-     * O tamanho do vetor deve ser maior que n.
+     * O tamanho do vetor deve ser maior ou igual a n.
      */
     public static int somaArray(int[] A, int n) {
         if (n < 0) {
