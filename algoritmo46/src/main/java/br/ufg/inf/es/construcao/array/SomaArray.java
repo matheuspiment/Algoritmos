@@ -23,14 +23,14 @@ public class SomaArray {
             throw new IllegalArgumentException("n inválido");
         }
 
-        if (A.length < (n + 1)) {
+        if (A.length < n) {
             throw new IllegalArgumentException("tamanho do vetor");
         }
 
         int s = 0; // Acumula os valores dos elementos do array.
-        int i = 1;
+        int i = 0;
 
-        while (i <= n) {
+        while (i < n) {
             s = s + A[i];
             i = i + 1;
         }
