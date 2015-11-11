@@ -27,7 +27,7 @@ public class MediaArray {
             throw new IllegalArgumentException("n inválido");
         }
 
-        if (A.length < (n + 1)) {
+        if (A.length < n) {
             throw new IllegalArgumentException("tamanho do vetor");
         }
 

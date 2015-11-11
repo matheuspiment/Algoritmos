@@ -12,15 +12,16 @@ public class MediaArrayTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testTamanhoDoVetorInvalido() {
-        MediaArray.mediaArray(new int[] {1, 3, 4, 5}, 4);
+        MediaArray.mediaArray(new int[] {1, 3, 4, 5}, 5);
+        MediaArray.mediaArray(new int[] {1, 3, 4, 5, 8}, 7);
     }
 
     @Test
     public void testCasosTriviais() {
         int[] A = new int[] {2, 4, 5, 7, 8, 11, 13};
-        Assert.assertEquals(4.5, MediaArray.mediaArray(A, 2), 0.1);
-        Assert.assertEquals(6, MediaArray.mediaArray(A, 4), 1);
-        Assert.assertEquals(7, MediaArray.mediaArray(A, 5), 1);
-        Assert.assertEquals(8, MediaArray.mediaArray(A, 6), 1);
+        Assert.assertEquals(3, MediaArray.mediaArray(A, 2), 0.1);
+        Assert.assertEquals(4.5, MediaArray.mediaArray(A, 4), 0.1);
+        Assert.assertEquals(5.2, MediaArray.mediaArray(A, 5), 0.1);
+        Assert.assertEquals(6.16, MediaArray.mediaArray(A, 6), 0.01);
     }
 }
