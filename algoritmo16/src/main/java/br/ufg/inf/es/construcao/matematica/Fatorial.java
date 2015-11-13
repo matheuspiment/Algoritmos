@@ -1,7 +1,7 @@
 package br.ufg.inf.es.construcao.matematica;
 
 /**
- * Implementacão do algoritmo que calcula o fatorial de um dado número.
+ * Implementação do algoritmo que calcula o fatorial de um dado número.
  */
 public class Fatorial {
 
