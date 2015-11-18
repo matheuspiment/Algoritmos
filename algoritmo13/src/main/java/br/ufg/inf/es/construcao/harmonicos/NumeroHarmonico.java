@@ -1,24 +1,24 @@
 package br.ufg.inf.es.construcao.harmonicos;
 
 /**
- * Implementação do algoritmo que calcula o valor de uma série harmônica
- * até o valor 1/n.
+ * ImplementaÃ§Ã£o do algoritmo que calcula o valor de uma sÃ©rie harmÃ´nica
+ * atÃ© o valor 1/n.
  */
 public class NumeroHarmonico {
 
     /**
-     * Calcula o valor de uma série harmônica até o valor 1/n
-     * de um dado número.
+     * Calcula o valor de uma sÃ©rie harmÃ´nica atÃ© o valor 1/n
+     * de um dado nÃºmero.
      *
-     * @param n Nímero cujo valor da sequência harmônica será calculado.
+     * @param n NÃºmero cujo valor da sequÃªncia harmÃ´nica serÃ¡ calculado.
      *
-     * @return O valor da sequência harmônica.
+     * @return O valor da sequÃªncia harmÃ´nica.
      *
      * @throws IllegalArgumentException Caso n seja menor que 1.
      */
     public static double numeroHarmonico(int n) {
         if (n < 1) {
-            throw new IllegalArgumentException("n inválido");
+            throw new IllegalArgumentException("n invÃ¡lido");
         }
 
         double i = 2;
