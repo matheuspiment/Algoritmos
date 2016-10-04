@@ -1,2 +1,3 @@
 # Avaliação de Construção de Softwere
-[<img src="https://api.travis-ci.org/matheuspiment/algoritmos.svg?branch=master">](https://travis-ci.org/matheuspiment/algoritmos)
+
+Realização de teste automatizado por meio do maven pelo Travis-CI [<img src="https://api.travis-ci.org/matheuspiment/algoritmos.svg?branch=master">](https://travis-ci.org/matheuspiment/algoritmos)
