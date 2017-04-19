@@ -1,1 +1,4 @@
 language: java
+addons:
+    code_climate:
+        repo_token: bbf493a03733dd78057d499778eb58e5e4e71c8e7093b9e580c95e31ac6f0cc9
