@@ -11,8 +11,7 @@ public class DiaSemana {
      * @param d Dia da data.
      * @param m Mês da data.
      * @param a Ano da data.
-     * @return Valor 0 para segunda-feira, 1 para terça-feira
-        * e assim sucessivamente.
+     * @return Valor 0 para segunda-feira, 1 para terça-feira e assim sucessivamente.
      *
      * @throws IllegalArgumentException Caso o dia, o mês ou o ano fornecidos
      * estejam fora dos limites admitidos.
