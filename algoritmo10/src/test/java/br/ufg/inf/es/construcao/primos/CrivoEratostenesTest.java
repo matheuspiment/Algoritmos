@@ -6,7 +6,7 @@ import org.junit.Assert;
 public class CrivoEratostenesTest {
 
     @Test(expected = IllegalArgumentException.class)
-    public void testNInválido() {
+    public void testNInvalido() {
         CrivoEratostenes.crivoEratostenes(new int[] {1, 2}, 1);
     }
 
