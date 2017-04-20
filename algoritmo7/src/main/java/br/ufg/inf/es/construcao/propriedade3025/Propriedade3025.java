@@ -26,10 +26,6 @@ public class Propriedade3025 {
         int i = n / 100; // Dois dígitos mais significativos.
         int j = n % 100; // Dois dígitos menos significativos.
 
-        if ((i + j) * (i + j) == n) {
-            return true;
-        } else {
-            return false;
-        }
+        return ((i + j) * (i + j) == n);
     }
 }
