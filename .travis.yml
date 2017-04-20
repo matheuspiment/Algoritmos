@@ -1,12 +1,6 @@
 addons:
   sonarqube: true
 language: java
-install:
-  - mvn test-compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-script:
-  - mvn test jacoco:report
-after_success:
-  - mvn coveralls:report
 addons:
     code_climate:
         repo_token: bbf493a03733dd78057d499778eb58e5e4e71c8e7093b9e580c95e31ac6f0cc9
