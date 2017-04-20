@@ -71,13 +71,15 @@
                         <target>1.5</target>
                     </configuration>
                 </plugin>
-            </plugins>
-		
-	    <plugin>
-    		<groupId>org.eluder.coveralls</groupId>
-    		     <artifactId>coveralls-maven-plugin</artifactId>
-    	             <version>4.3.0</version>	
+		<plugin>
+    	            <groupId>org.eluder.coveralls</groupId>
+    		    <artifactId>coveralls-maven-plugin</artifactId>
+    	            <version>4.3.0</version>
+	            <configuration>
+                        <repoToken>lXqkQvMQPlmuyaeW0u7Y93Pk25o3kQoW5</repoToken>
+                    </configuration>
 	    </plugin>
+            </plugins>
         </pluginManagement>
     </build>
 
