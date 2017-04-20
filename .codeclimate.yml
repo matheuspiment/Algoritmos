@@ -3,6 +3,6 @@ engines:
     enabled: true
     channel: "beta"
 
-  ratings:
+ratings:
   paths:
   - "**.java"
