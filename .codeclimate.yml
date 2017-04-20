@@ -1,1 +1,4 @@
-Java: true
+engines:
+  checkstyle:
+    enabled: true
+    channel: "beta"
