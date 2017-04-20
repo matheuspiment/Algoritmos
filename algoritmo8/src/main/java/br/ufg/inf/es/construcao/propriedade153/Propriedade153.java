@@ -27,12 +27,6 @@ public class Propriedade153 {
         int j = (n - 100 * i) / 10;
         int k = n % 10;
 
-        if (i * i * i + j * j * j + k * k * k == n) {
-            return true;
-        }
-
-        else {
-            return false;
-        }
+        return (i * i * i + j * j * j + k * k * k == n);
     }
 }
