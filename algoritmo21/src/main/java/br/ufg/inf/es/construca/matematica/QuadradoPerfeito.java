@@ -1,26 +1,26 @@
 package br.ufg.inf.es.construca.matematica;
 
 /**
- * Implementação do algoritmo que verifica se um dado número é ou não
+ * ImplementaÃ§Ã£o do algoritmo que verifica se um dado nÃºmero Ã© ou nÃ£o
  * um quadrado perfeito.
  */
 public class QuadradoPerfeito {
 
     /**
-     * Verifica se um dado número é um quadrado perfeito.
+     * Verifica se um dado nÃºmero Ã© um quadrado perfeito.
      *
-     * @param k Número a ser verificado.
+     * @param k NÃºmero a ser verificado.
      *
-     * @return Retorna true caso o número seja um quadrado perfeito e false,
-     * caso contrário.
+     * @return Retorna true caso o nÃºmero seja um quadrado perfeito e false,
+     * caso contrÃ¡rio.
      *
      * @throws IllegalArgumentException Caso o valor de k seja menor que
      * o valor de entrada estabelecido.
-     * O parâmetro k deve ser maior que 0.
+     * O parÃ¢metro k deve ser maior que 0.
      */
     public static boolean quadradoPerfeito(int k) {
         if (k < 1) {
-            throw new IllegalArgumentException("k inválido");
+            throw new IllegalArgumentException("k invÃ¡lido");
         }
 
         int i = 1;
@@ -31,10 +31,6 @@ public class QuadradoPerfeito {
             q = q + i;
         }
 
-        if (q == k) {
-            return true;
-        } else {
-            return false;
-        }
+        return q == k;
     }
 }
