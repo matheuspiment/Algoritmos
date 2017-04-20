@@ -4,7 +4,7 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>br.ufg.inf.es.construcao</groupId>
+    <groupId>com.github.matheuspiment.algoritmos</groupId>
     <artifactId>avaliacao</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
