@@ -45,10 +45,6 @@ public class Cpf {
         int j = Mod.mod(Mod.mod(s, 11), 10);
         int k = Mod.mod(Mod.mod(s - p + 9 * j, 11), 10);
 
-        if (j == d[10] && k == d[11]) {
-            return true;
-        } else {
-            return false;
-        }
+        return (j == d[10] && k == d[11]);
     }
 }
