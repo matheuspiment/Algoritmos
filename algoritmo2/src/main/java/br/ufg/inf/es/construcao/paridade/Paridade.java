@@ -14,10 +14,6 @@ public class Paridade {
      * caso contrário, retorna false.
      */
     public static boolean paridade(int n) {
-        if (n % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return n % 2 == 0;
     }
 }
