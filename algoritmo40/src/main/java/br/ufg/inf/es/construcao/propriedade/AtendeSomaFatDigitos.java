@@ -33,10 +33,6 @@ public class AtendeSomaFatDigitos {
         int s = Fatorial.fatorial(a) + Fatorial.fatorial(b) +
                 Fatorial.fatorial(c);
 
-        if (s == n) {
-            return true;
-        } else {
-            return false;
-        }
+        return s == n;
     }
 }
