@@ -2,3 +2,7 @@ engines:
   checkstyle:
     enabled: true
     channel: "beta"
+     
+ratings:
+  paths:
+  - "algoritimo1/src/main/**.java"
