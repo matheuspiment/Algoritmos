@@ -6,7 +6,7 @@
 
     <groupId>com.github.matheuspiment.algoritmos</groupId>
     <artifactId>avaliacao</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0</version>
     <name>com.github.matheuspiment.algoritmos:avaliacao</name>	
     <url>https://github.com/matheuspiment/algoritmos</url>
